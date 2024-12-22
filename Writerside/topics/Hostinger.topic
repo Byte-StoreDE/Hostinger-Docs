@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Hostinger" id="Hostinger">
+    <web-summary>
+        Discover how Hostinger, powered by Java Spring JMIX framework, offers complete control over processes, virtual
+        machines, containers, and more. Easily migrate from MyTrioX and manage both digital and physical products with
+        an extensive API and CMS.
+    </web-summary>
+
+    <chapter title="What is Hostinger?" id="what-is-hostinger">
+        <p>
+            Hostinger now succeeds MyTrioX. Unlike MyTrioX, Hostinger relies on Java <a
+                href="https://spring.io/">Spring</a>, or more specifically, the
+            <a href="https://docs.jmix.io/">JMIX Framework</a>.
+        </p>
+
+        <p>
+            Our new system provides the capability to control processes (gameserver, voiceserver, etc.), virtual
+            machines,
+            and
+            containers
+        </p>
+
+        <p>
+            An extensive API allows for smooth integration with other systems.
+        </p>
+
+        <p>
+            In addition, our CMS enables the creation of email templates and frontend pages.
+        </p>
+
+        <p>
+            Our system not only offers the possibility to manage digital products, but also physical products are
+            possible
+            from
+            logistics to reordering from the wholesaler.
+        </p>
+    </chapter>
+
+    <chapter title="How can I migrate?" id="migrate">
+        <p>
+            Migrating from MyTrioX to Hostinger is easy.
+        </p>
+        <p>Upload a backup of your old system to the root directory. The file
+            must be named:
+            <code>migration.db</code>.</p>
+
+        Once Hostinger is launched, the backup gets automatically imported.
+
+        <chapter title="Is it possible to migrate from other systems?"
+                 id="third-party-migration">
+            Right now, we do not have this capability, but we are actively pursuing the ability to import database
+            backups from software like TekBase or WHCMS.
+        </chapter>
+    </chapter>
+
+    <chapter title="What is next?" id="next">
+        <chapter title="Cloud version" id="cloud">
+            <p>
+                We are currently working on a cloud version to simplify installation and maintenance for customers with
+                limited technical skills.
+            </p>
+
+            <p>
+                The cloud version will run parallel to our self-hosted model, the self-hosted version will remain the
+                same.
+            </p>
+        </chapter>
+
+        <chapter title="Space backup" id="space-backup">
+            <p>
+                Previous iterations of MyTrioX had already included the feature to synchronize crucial settings with the
+                cloud.
+            </p>
+
+            <p>
+                Our goal is to update this functionality and provide enhanced flexibility.
+            </p>
+        </chapter>
+    </chapter>
+</topic>

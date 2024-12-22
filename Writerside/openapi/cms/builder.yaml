@@ -1,0 +1,80 @@
+openapi: "3.1.0"
+info:
+  title: "hostinger API"
+  description: "hostinger API"
+  version: "1.0.0"
+servers:
+  - url: "https://hostinger"
+paths:
+  /internal/builder/uploadMedia:
+    post:
+      summary: "POST internal/builder/uploadMedia"
+      operationId: "mediaUpload"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/builder/{page}:
+    get:
+      summary: "GET internal/builder/{page}"
+      operationId: "pagetGet"
+      parameters:
+        - name: "page"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+    post:
+      summary: "POST internal/builder/{page}"
+      operationId: "pagePost"
+      parameters:
+        - name: "page"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: "string"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/builder/listPages:
+    get:
+      summary: "GET internal/builder/listPages"
+      operationId: "pagesList"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/builder/scan:
+    get:
+      summary: "GET internal/builder/scan"
+      operationId: "getMedia"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"

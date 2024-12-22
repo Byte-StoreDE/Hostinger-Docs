@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Extension" id="Extensions">
+    <web-summary>
+        Discover the importance of extensions in software development to enhance functionality and maintainability.
+        Learn how to register extensions using the @Extension annotation in the Spring framework.
+    </web-summary>
+
+    <p>
+        In software development, particularly within the context of modular applications, the concept of extensions
+        plays a
+        crucial role in enhancing functionality and promoting maintainability.
+    </p>
+    <p>
+        Extensions serve as modular listeners
+        specifically designed for a given module.
+
+        They are registered through the <a href="https://spring.io/">Spring
+        framework</a> using the annotation
+        <code>@Extension</code>.
+    </p>
+
+    <warning>
+        Extension points must always reflect the correct module name in the <code>name()</code> method and have the
+        annotation <code>@Extension</code>, otherwise they will not be loaded correctly.
+        <br/>
+        For example your <a href="Introduction.md#plugin-manifest"><code>plugin.id</code></a> is <code>docker</code>, you can't use <code>abcdf</code> as
+        <code>name()</code>.<br/>
+        <compare type="left-right" first-title="Wrong" second-title="Correct">
+            <code-block src="../code/name-reflection-wrong.java" lang="java"/>
+
+            <code-block src="../code/name-reflection-okay.java" lang="java"/>
+        </compare>
+    </warning>
+
+
+    <seealso>
+        <category ref="extensions">
+            <a href="Virtualized-Module.topic"/>
+            <a href="Machine-module.topic"/>
+            <a href="Process-module.topic"/>
+            <a href="Logistic-module.topic"/>
+            <a href="Payment-module.topic"/>
+            <a href="Shipment-module.topic"/>
+        </category>
+    </seealso>
+</topic>
