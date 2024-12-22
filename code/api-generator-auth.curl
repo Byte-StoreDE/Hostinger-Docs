@@ -1,3 +1,0 @@
-curl -X GET http://localhost/rest/docs/<endpoint_route> \
-    -H "Accept: application/yaml" \
-    -H "Authorization: Bearer <access_token>"

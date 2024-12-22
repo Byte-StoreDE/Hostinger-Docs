@@ -1,3 +1,0 @@
-# CMS
-
-Start typing here...
