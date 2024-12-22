@@ -1,0 +1,87 @@
+openapi: "3.1.0"
+info:
+  title: "hostinger API"
+  description: "hostinger API"
+  version: "1.0.0"
+servers:
+  - url: "https://hostinger"
+paths:
+  /internal/hosting/machine/list:
+    get:
+      summary: "GET internal/hosting/machine/list"
+      operationId: "getAllMachines"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/hosting/machine/{id}:
+    get:
+      summary: "GET internal/hosting/machine/{id}"
+      operationId: "getVirtualizedById"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/hosting/machine/{id}/wol:
+    get:
+      summary: "GET internal/hosting/machine/{id}/wol"
+      operationId: "wol"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/hosting/machine/{id}/stop:
+    get:
+      summary: "GET internal/hosting/machine/{id}/stop"
+      operationId: "stop"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/hosting/machine/{id}/restart:
+    get:
+      summary: "GET internal/hosting/machine/{id}/restart"
+      operationId: "restart"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"

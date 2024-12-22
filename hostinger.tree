@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hostinger"
+                  name="hostinger"
+                  start-page="Hostinger.topic">
+
+    <toc-element topic="Hostinger.topic"/>
+    <toc-element topic="Hosting.topic"/>
+    <toc-element topic="E-Mail.topic">
+        <toc-element topic="E-Mail-Templates.topic"/>
+        <toc-element topic="E-Mail-Accounts.topic"/>
+    </toc-element>
+    <toc-element topic="Module.md">
+        <toc-element topic="Introduction.md">
+        </toc-element>
+        <toc-element topic="Extensions.topic">
+            <toc-element topic="Virtualized-Module.topic"/>
+            <toc-element topic="Machine-module.topic"/>
+            <toc-element topic="Network-module.topic"/>
+            <toc-element topic="Storage-module.topic"/>
+            <toc-element topic="Backup-module.topic"/>
+            <toc-element topic="Process-module.topic"/>
+            <toc-element topic="Logistic-module.topic"/>
+            <toc-element topic="Payment-module.topic">
+                <toc-element topic="PaymentMethod-module.topic"/>
+            </toc-element>
+            <toc-element topic="Shipment-module.topic"/>
+            <toc-element topic="Authentication-module.topic"/>
+            <toc-element topic="Config-module.topic"/>
+        </toc-element>
+        <toc-element topic="Autowired.topic"/>
+        <toc-element topic="Publish-module.topic"/>
+        <toc-element topic="Official-Modules.md">
+            <toc-element topic="PayPal.topic"/>
+            <toc-element topic="Docker.topic"/>
+            <toc-element topic="ProxMox.topic"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="API.topic">
+        <toc-element topic="Hosting-api.topic">
+            <toc-element topic="Machine-api.topic"/>
+            <toc-element topic="Process-api.topic"/>
+            <toc-element topic="Virtualized-api.topic"/>
+        </toc-element>
+        <toc-element topic="CMS-api.md">
+            <toc-element topic="Builder-api.topic"/>
+            <toc-element topic="Attachments-api.topic"/>
+        </toc-element>
+        <toc-element topic="Space-api.md">
+            <toc-element topic="Plugins-api.topic"/>
+            <toc-element topic="Versions-api.topic"/>
+        </toc-element>
+        <toc-element topic="Entities-api.md"/>
+        <toc-element topic="Sessions-api.md"/>
+        <toc-element topic="Modules-api.topic"/>
+        <toc-element topic="Media-api.md"/>
+        <toc-element topic="E-Commerce-api.md">
+            <toc-element topic="Product-api.topic"/>
+            <toc-element topic="Payment-api.topic"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>

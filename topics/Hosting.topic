@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Hosting" id="Hosting">
+
+    <chapter id="process-vs-virtualization" title="Process vs Virtualization">
+        <p>
+            In Hostinger, there is the possibility to manage processes or virtualizations.
+        </p>
+
+        <p>
+            Visualizations run on any hypervisor and are referred to as containers or VMs; they represent a virtual
+            operating system.
+        </p>
+
+        <p>
+            A process is also a kind of container or an executable software packet that is started on an isolated VM,
+            but it
+            can also be a native system process.
+        </p>
+    </chapter>
+</topic>

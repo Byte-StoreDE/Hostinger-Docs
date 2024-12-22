@@ -1,0 +1,77 @@
+openapi: 3.0.0
+info:
+  title: OAuth2 API
+  version: 1.0.0
+paths:
+  /rest/permissions:
+    get:
+      tags:
+        - Permissions
+      summary: Get an information about current user security permissions
+      description: |
+        Returns an object that contains lists of current user authorites (i.e. roles),
+        permissions on CRUD operations with entities, entity attributes, specific permissions
+      responses:
+        200:
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  authorities:
+                    type: array
+                    items:
+                      type: string
+                  entityAttributes:
+                    type: array
+                    items:
+                      type: object
+                  entities:
+                    type: array
+                    items:
+                      type: object
+                  specifics:
+                    type: array
+                    items:
+                      type: object
+                example:
+                  authorities:
+                    - "ROLE_system-full-access"
+                    - "..."
+                  entityAttributes: [
+                    {
+                      "target": "host_User:email",
+                      "value": 2
+                    },
+                    {
+                      "target": "...",
+                      "value": ...
+                    },
+                  ]
+                  entities: [
+                    {
+                      "target": "host_User:create",
+                      "value": 1
+                    },
+                    {
+                      "target": "...",
+                      "value": ...
+                    },
+                  ]
+                  specifics: [
+                    {
+                      "target": "rest.enabled",
+                      "value": 1
+                    },
+                    {
+                      "target": "...",
+                      "value": ...
+                    }
+                  ]
+
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
