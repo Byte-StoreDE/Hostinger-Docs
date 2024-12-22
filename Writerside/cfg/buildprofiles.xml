@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+    <build-profile instance="hostinger">
+        <variables>
+            <versions-switcher>https://docs.byte-store.de/help-versions.json</versions-switcher>
+            <custom-favicons>logo-micro.png</custom-favicons>
+            <header-logo>logo-micro.png</header-logo>
+
+            <download-title>Get Hostinger</download-title>
+            <download-page>https://byte-store.de/hostinger</download-page>
+            <showDownloadButton>true</showDownloadButton>
+            <generate-canonicals>true</generate-canonicals>
+            <offline-docs>true</offline-docs>
+            <og-image>logo-micro.png</og-image>
+            <enable-contribution>true</enable-contribution>
+            <contribute-url>https://github.com/orgs/Byte-StoreDE/hostinger-docs</contribute-url>
+
+            <algolia-id>QZA57I5ZU3</algolia-id>
+            <algolia-index>hostinger</algolia-index>
+            <algolia-api-key>875de5d7a29960fa8629f98dcc3b069c</algolia-api-key>
+            <noindex-content>false</noindex-content>
+        </variables>
+        <footer>
+            <copyright>2024 BYTESTORE - Jan Heil.</copyright>
+            <link href="https://byte-store.de">Website</link>
+        </footer>
+        <sitemap change-frequency="weekly" priority="0.35"/>
+    </build-profile>
+    <build-profile instance="t">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
+
+</buildprofiles>

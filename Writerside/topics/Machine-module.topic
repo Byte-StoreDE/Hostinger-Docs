@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Machine" id="Machine-module">
+
+    <p>Machine extensions provide adapters for the administration of hypervisors or dedicated servers, for example.</p>
+    <p>As an example, a machine object is created with the provider ProxMox.</p>
+    <p>If a virtualized object is
+        now created, the created machine must be selected as the server.</p>
+
+    <code-block lang="java" src="../code/machine-module.java"/>
+</topic>

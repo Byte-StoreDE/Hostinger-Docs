@@ -1,0 +1,61 @@
+openapi: "3.1.0"
+info:
+  title: "hostinger API"
+  description: "hostinger API"
+  version: "1.0.0"
+servers:
+  - url: "https://hostinger"
+paths:
+  /internal/versions/{branch}/list:
+    get:
+      summary: "GET internal/versions/{branch}/list"
+      operationId: "updatesList"
+      parameters:
+        - name: "branch"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/versions/{version}/download:
+    get:
+      summary: "GET internal/versions/{version}/download"
+      operationId: "versionDownload"
+      parameters:
+        - name: "version"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+            format: "uuid"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /internal/versions/{version}/changelog:
+    get:
+      summary: "GET internal/versions/{version}/changelog"
+      operationId: "versionChangelog"
+      parameters:
+        - name: "version"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+            format: "uuid"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"

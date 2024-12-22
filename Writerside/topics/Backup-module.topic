@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  - Copyright (c) 2024 Jan Heil (www.byte-store.de).
+  - All rights reserved.
+  -
+  - File created on 22.12.24, 11:36.
+  -->
+
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Backup" id="Backup-module">
+
+    <p>
+        Backup extensions offer the possibility to automatically backup and restore processes or virtualizations.
+    </p>
+
+    <code-block lang="java" src="../code/backup-module.java"/>
+</topic>
