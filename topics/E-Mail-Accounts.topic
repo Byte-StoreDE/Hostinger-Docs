@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Accounts" id="E-Mail-Accounts">
+    <web-summary>
+        Explore how to set up email accounts to send and receive emails using IMAP, POP3, and SMTP protocols. Learn to
+        add accounts with generic information, and how some clients display avatars via the BIMI protocol.
+    </web-summary>
+
+    <tip>
+        <p>
+            To receive or send e-mails, you need to set up an e-mail account.
+        </p>
+        <p>
+            E-mails are received via the IMAP or POP3
+            protocol and sent via the SMTP protocol.
+        </p>
+    </tip>
+
+    <chapter title="Add Account" id="module-setup">
+        <list type="decimal">
+            <li>Generic Information
+
+            </li>
+        </list>
+        <img alt="email-generic.png" src="email-generic.png" thumbnail="true"/>
+        <img alt="email-receive.png" src="email-receive.png" thumbnail="true"/>
+        <img alt="email-send.png" src="email-send.png" thumbnail="true"/>
+        <img alt="email-test.png" src="email-test.png"/>
+    </chapter>
+
+    <tip title="Did you already know?">
+        <p>
+            Some e-mail clients offer the option of displaying an avatar or profile picture via the <a
+                href="https://bimigroup.org/">BIMI
+            protocol</a>.
+        </p>
+
+        <p>
+            This is made possible via a DNS entry and can be created <a href="https://bimigroup.org/bimi-generator/">using
+            a
+            generator</a>.</p>
+    </tip>
+</topic>

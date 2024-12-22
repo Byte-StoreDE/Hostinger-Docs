@@ -1,0 +1,90 @@
+openapi: 3.0.0
+info:
+  title: OAuth2 API
+  version: 1.0.0
+paths:
+  /oauth/token:
+    post:
+      tags:
+        - OAuth
+      summary: Get an authentication token
+      externalDocs:
+        url: "https://docs.jmix.io/openapi/2.4/#/Permissions/get_permissions"
+      description: |
+        Gets an authentication token.
+
+        The endpoint is protected with the basic authentication. The request must contain an `Authorization`
+        header for basic authentication with REST API client credentials. Please note that client credentials 
+        are not the same as the user credentials. Client means an application that uses the REST API.
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                grant_type:
+                  type: string
+                  description: OAuth grant type. Should be set to "password"
+                  default: password
+                username:
+                  type: string
+                  description: Jmix user login
+                  default: admin
+                password:
+                  type: string
+                  description: Jmix user password
+                  default: admin
+      responses:
+        200:
+          description: Successfully authenticated.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/token'
+        400:
+          description: Authentication failed, e.g. because of invalid username
+            or password
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/oauthError'
+        401:
+          description: Basic authentcation failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/oauthError'
+      security:
+        - tokenEndpointBasic: [ ]
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+  schemas:
+    oauthError:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Error message
+        error_description:
+          type: string
+          description: Detailed error description
+    token:
+      type: object
+      properties:
+        access_token:
+          type: string
+          example: ead2bcb0-6fed-42ec-8a8f-c3196d038d8b
+        token_type:
+          type: string
+          example: password
+        refresh_token:
+          type: string
+          example: fd00550e-5bb0-41b6-89d6-57bbfb6732a1
+        expires_in:
+          type: string
+          example: "3600"
+        scope:
+          type: string
+          example: rest-api

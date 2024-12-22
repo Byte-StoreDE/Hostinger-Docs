@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Templates" id="E-Mail-Templates">
+    <web-summary>
+        Discover how to set up default email accounts for sending different types of emails using templates. Test the
+        template, enter a receiver for the test mail, wait for the result, and save the template configuration.
+    </web-summary>
+
+    <tip>Email templates are loaded from the classpath by default. To be able to use these, an <a
+            href="E-Mail-Accounts.topic">e-mail account</a> must first
+        be set up. This account is then assigned to the desired template.
+    </tip>
+
+    <chapter title="Template Sender Setup" id="template-sender-setup">
+    </chapter>
+
+    <note title="What are Template Senders?">
+        <p>For each E-Mail Template, you can select a default E-Mail Account to send the template.
+        </p>
+        <p>
+            For example, you can
+            send registration emails using <code>noreply@domain.tld</code> and ticket notifications using <code>support@domain.tld</code>.
+        </p>
+    </note>
+
+    <list type="decimal">
+        <li>
+            Select the desired Mail Account for sending the template.
+            <img alt="email-template-account.png" src="email-template-account.png"/>
+        </li>
+        <li>
+            Test the template.
+            <img alt="email-template-test.png" src="email-template-test.png"/>
+        </li>
+        <li>
+            Enter the receiver for test mail.
+            <img alt="email-template-dummy.png" src="email-template-dummy.png"/>
+        </li>
+        <li>
+            Wait for the result and save the template configuration.
+            <img alt="email-template-success.png" src="email-template-success.png"/>
+        </li>
+    </list>
+
+
+</topic>

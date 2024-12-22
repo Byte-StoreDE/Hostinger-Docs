@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  title: OAuth2 API
+  version: 1.0.0
+paths:
+  /oauth/revoke:
+    post:
+      tags:
+        - OAuth
+      summary: Revoke an authentication token
+      description: |
+        Revokes an authentication token. The endpoint is protected with the basic authentication. The request must
+        contain an `Authorization` header for basic authentication with REST API client credentials. See the `/oauth/token`
+        endpoint documentation for more details.
+        When the refresh token is revoked, the correspondig access token is also revoked.
+        When the access token is revoked, the correspondding refresh token is also revoked.
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                token:
+                  type: string
+                  description: The token to be revoked.
+                token_type_hint:
+                  type: string
+                  description: |
+                    A hint about the type of the token submitted for revocation. May be access_token or refresh_token.
+                    The parameter is optional.
+      responses:
+        200:
+          description: Success
+          content: { }
+      security:
+        - tokenEndpointBasic: [ ]
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
