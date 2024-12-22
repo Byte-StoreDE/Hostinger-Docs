@@ -10,7 +10,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'hostinger/hostinger'
+  INSTANCE: 'Writerside/hostinger'
   DOCKER_VERSION: '243.22562'
 
 jobs:
