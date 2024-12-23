@@ -10,4 +10,15 @@
 
 
     <code-block lang="java" src="../code/process-module.java"/>
+
+    <chapter title="Exceptions" id="exceptions">
+        A specific UI element is regularly triggered by the following exceptions in the web interface:
+        <list type="bullet">
+            <li>ProcessCreationException</li>
+            <li>ProcessShutdownException</li>
+            <li>ProcessStartException</li>
+            <li>ProcessStopException</li>
+            <li>ProcessVNCException</li>
+        </list>
+    </chapter>
 </topic>

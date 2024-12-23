@@ -17,4 +17,16 @@
     </p>
 
     <code-block lang="java" src="../code/backup-module.java"/>
+
+    <chapter title="Exceptions" id="exceptions">
+        A specific UI element is regularly triggered by the following exceptions in the web interface:
+
+
+        <list type="bullet">
+            <li>BackupCreationException</li>
+            <li>BackupDeleteException</li>
+            <li>BackupDownloadException</li>
+            <li>BackupRestoreException</li>
+        </list>
+    </chapter>
 </topic>

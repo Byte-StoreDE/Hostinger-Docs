@@ -11,4 +11,17 @@
         now created, the created machine must be selected as the server.</p>
 
     <code-block lang="java" src="../code/machine-module.java"/>
+
+    <chapter title="Exceptions" id="exceptions">
+        A specific UI element is regularly triggered by the following exceptions in the web interface:
+
+
+        <list type="bullet">
+            <li>MachinePauseException</li>
+            <li>MachineRestartException</li>
+            <li>MachineStartException</li>
+            <li>MachineStopException</li>
+            <li>MachineVNCException</li>
+        </list>
+    </chapter>
 </topic>
