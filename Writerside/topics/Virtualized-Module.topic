@@ -8,4 +8,20 @@
     <p>A virtualized object is, for example, a ProxMox LXC or a VM.</p>
 
     <code-block lang="java" src="../code/virtualized-module.java"/>
+
+    <chapter title="Exceptions" id="exceptions">
+        A specific UI element is regularly triggered by the following exceptions in the web interface:
+
+
+        <list type="bullet">
+            <li>VirtualizedCreationException</li>
+            <li>VirtualizedPauseException</li>
+            <li>VirtualizedRemoveException</li>
+            <li>VirtualizedRestartException</li>
+            <li>VirtualizedStartException</li>
+            <li>VirtualizedStopException</li>
+            <li>VirtualizedUpdateException</li>
+            <li>VirtualizedVNCException</li>
+        </list>
+    </chapter>
 </topic>
