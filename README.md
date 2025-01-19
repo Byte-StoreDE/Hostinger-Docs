@@ -1,3 +1,5 @@
+[![Build documentation](https://github.com/Byte-StoreDE/Hostinger-Docs/actions/workflows/build.yml/badge.svg)](https://github.com/Byte-StoreDE/Hostinger-Docs/actions/workflows/build.yml)
+
 # Hostinger Documentation
 
 Welcome to this Documentation Repository, you will find, the compiled Docs

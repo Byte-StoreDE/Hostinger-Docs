@@ -60,6 +60,8 @@
                 <img src="../images/linux/hosinger-archive.png" alt="hostinger-archive.png"/>
 
                 For starting, you can use the <code>start.sh</code> which is included in the archive.
+
+                <img src="../images/linux/run-cmd.png" alt="run-cmd.png"/>
             </chapter>
         </chapter>
     </chapter>
@@ -78,7 +80,17 @@
             <img alt="hostinger-archive-unzip.png" src="../images/windows/hostinger-archive-unzip.png"/>
 
             For starting, you can use the <code>start.bat</code> which is included in the archive.
+
+            <img src="../images/windows/run-cmd.png" alt="run-cmd.png"/>
         </chapter>
+    </chapter>
+
+    <!--    <chapter title="Docker" id="docker">-->
+
+    <!--    </chapter>-->
+
+    <chapter id="setup" title="Setup">
+        After the first startup you can access Hostinger via <a href="http://localhost"/>.
     </chapter>
 
     <!--    <note>-->
