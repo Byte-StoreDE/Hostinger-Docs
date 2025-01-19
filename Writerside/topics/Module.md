@@ -21,6 +21,10 @@ Modules can be installed manually via the **modules folder** or via the **Module
 
 The Modules folder is located in the **root directory** of Hostinger under ``modules``
 
+#### Upload Plugin
+
+Since 1.1.65 you can directly upload plugins via the Web UI.
+
 ### Can I develop my own modules?
 
 Yes, you can develop your own module in a few simple steps, just follow [our guide](Introduction.md).

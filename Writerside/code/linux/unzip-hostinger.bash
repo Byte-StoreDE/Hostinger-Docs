@@ -1,0 +1,1 @@
+unzip hostinger-standalone.zip

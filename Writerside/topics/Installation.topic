@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Installation" id="Installation">
+
+    <note>
+        Hostinger requires Java JRE between %jre-min% and %jre-max% to work properly.
+    </note>
+
+    <chapter title="Download" id="download">
+        For "native" installation on <a href="#linux">Linux</a> or <a href="#windows">Windows</a> you need to download
+        the compiled Source of Hostinger.
+        <br/>
+        You need to log in into Space Portal to download the latest release.
+    </chapter>
+
+    <chapter title="Linux" id="linux">
+        Hostinger can be installed directly on a dedicated Linux Machine, this is recommended for Production Mode.
+
+        <chapter title="Manual Installation" id="linux-manual">
+            <chapter id="debian-based" title="Debian based">
+                This Installation instruction is designed for Debian based Systems like Ubuntu.
+
+                <chapter title="Update System" id="linux-update-upgrade">
+                    First, we need to Update our System Packages, and then we can upgrade already installed Packages.
+
+                    <code-block lang="Bash" src="../code/debian/update-system.bash"/>
+                </chapter>
+                <chapter title="Install JRE" id="linux-install-java">
+                    The next step is to install the default Java Runtime Environment, because Hostinger is based on JMIX
+                    Framework.
+
+                    It supports a JRE between %jre-min% and %jre-max%.
+
+
+                    <code-block lang="Bash" src="../code/debian/install-jre.bash"/>
+
+                    <chapter title="Installed multiple Java Versions?" id="linux-select-java">
+                        First you need to Install the Common Package, which contains the
+                        <code>update-java-alternative</code> Tool.
+                        <code-block lang="Bash" src="../code/debian/install-java-common.bash"/>
+
+                        To list already installed Java Versions, you can use the following Command:
+                        <code-block lang="Bash" src="../code/debian/list-java-versions.bash"/>
+
+                        To now change the default Version you can use the following Command:
+                        <code-block lang="Bash" src="../code/debian/change-java-version.bash"/>
+                    </chapter>
+                </chapter>
+            </chapter>
+
+            <chapter id="linux-start" title="Start Hostinger">
+                First, you need to extract the <a href="#download">downloaded Archive</a>.<br/>
+
+                <code-block src="../code/linux/unzip-hostinger.bash" lang="Bash"/>
+
+                The extracted ZIP should contain 5 files:
+                <img src="../images/linux/hosinger-archive.png" alt="hostinger-archive.png"/>
+
+                For starting, you can use the <code>start.sh</code> which is included in the archive.
+            </chapter>
+        </chapter>
+    </chapter>
+
+    <chapter title="Windows" id="windows">
+        <warning>Hostinger is indeed optimized for Linux-based systems, which can lead to better performance. While it
+            can
+            run on Windows, the file system differences might cause some slowdowns. If you're looking for the best
+            performance, sticking with a Linux environment is a solid choice.
+        </warning>
+
+        <chapter id="windows-start" title="Start Hostinger">
+            First, you need to extract the <a href="#download">downloaded Archive</a>.<br/>
+
+            The ZIP archive should contain 5 files:
+            <img alt="hostinger-archive-unzip.png" src="../images/windows/hostinger-archive-unzip.png"/>
+
+            For starting, you can use the <code>start.bat</code> which is included in the archive.
+        </chapter>
+    </chapter>
+
+    <!--    <note>-->
+    <!--        If you need any tips on setting up or managing your hosting environment, feel free to ask!-->
+    <!--    </note>-->
+</topic>

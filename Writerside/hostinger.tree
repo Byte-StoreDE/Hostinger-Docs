@@ -7,6 +7,7 @@
                   start-page="Hostinger.topic">
 
     <toc-element topic="Hostinger.topic"/>
+    <toc-element topic="Installation.topic"/>
     <toc-element topic="Hosting.topic"/>
     <toc-element topic="E-Mail.topic">
         <toc-element topic="E-Mail-Templates.topic"/>

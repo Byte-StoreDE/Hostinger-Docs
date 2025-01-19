@@ -1,0 +1,1 @@
+update-java-alternatives --list
