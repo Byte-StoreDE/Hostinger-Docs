@@ -6,6 +6,8 @@
        title="Hosting" id="Hosting">
 
     <chapter id="process-vs-virtualization" title="Process vs Virtualization">
+        A Provider for Hosting
+
         <p>
             In Hostinger, there is the possibility to manage processes or virtualizations.
         </p>
@@ -20,5 +22,34 @@
             but it
             can also be a native system process.
         </p>
+    </chapter>
+
+    <chapter id="provider" title="Provider work-principle">
+        A provider represents a driver, as in a Windows operating system, for example.<br/>
+
+        The provider translates defined Hostinger classes into listeners that can then be processed on the respective
+        module.<br/>
+
+        <u>Primary Hosting providers could be the following:</u>
+
+        <list>
+            <li><a href="Virtualized-Module.topic"/></li>
+            <li><a href="Process-module.topic"/></li>
+        </list>
+
+        <br/>
+        <u>Secondary Hosting providers could be the following:</u>
+
+        <list>
+            <li><a href="Network-module.topic"/></li>
+            <li><a href="Storage-module.topic"/></li>
+            <li><a href="Machine-module.topic"/></li>
+            <li><a href="Backup-module.topic"/></li>
+        </list>
+
+
+        A provider is defined via an <a href="Extensions.topic">@Extension</a>.
+
+        <code-block lang="Mermaid" src="../mermaid/hosting-driver.mermaid"/>
     </chapter>
 </topic>

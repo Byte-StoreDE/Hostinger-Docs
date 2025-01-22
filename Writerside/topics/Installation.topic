@@ -20,6 +20,7 @@
         Hostinger can be installed directly on a dedicated Linux Machine, this is recommended for Production Mode.
 
         <chapter title="Installer" id="linux-automated">
+            The automated Installer provides automatic Package installation and creates a Service for Hostinger.
             <img alt="installer-automated.png" src="../images/linux/installer-automated.png"/>
         </chapter>
 
