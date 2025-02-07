@@ -36,7 +36,8 @@ started:
 
 ### Module Structure
 
-Hostinger uses the [PF4J Framework](https://pf4j.org/) to load plugins, so if anything is unclear you can look at their
+Hostinger uses the [Jmix Plugin Addon](https://github.com/Gamer08YT/jmix-plugin-addon), which is based
+on [PF4J Framework](https://pf4j.org/) to load plugins, so if anything is unclear, you can look at their
 documentation.
 
 1. Create your package in the following format (xx.xx.hostinger.**modulename**) -> **For example,
@@ -44,7 +45,7 @@ documentation.
 2. Following names for sub packages should be used:
 
    | Name           | Description                                 |
-                                                                                                                              |----------------|---------------------------------------------|
+                                                                                                                                    |----------------|---------------------------------------------|
    | service        | Contains your Spring Service Classes.       |
    | entity*        | Contains your JPA Objects.                  |
    | configurations | Contains your Spring Configuration Classes. |
@@ -103,6 +104,19 @@ Feel free to contact our technical team.
 
 </note>
 
+## Troubleshooting:
+
+No Extensions getting found?
+
+Please enable Annotations for your Project. see [PF4J Troubleshooting](https://pf4j.org/doc/troubleshooting.html)
+
+![annotation.png.png](https://github.com/Gamer08YT/jmix-plugin-addon/raw/master/assets/img/annotation.png)
+
+If you use Gradle, please add the following to your build.gradle.
+
+```groovy
+annotationProcessor(group: 'org.pf4j', name: 'pf4j', version: "<pf4jVersion>")
+``` 
 
 <seealso>
     <category ref="core">
