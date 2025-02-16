@@ -22,13 +22,22 @@
     <chapter title="Add Account" id="module-setup">
         <list type="decimal">
             <li>Generic Information
-
+                <img alt="email-generic.png" src="email-generic.png" thumbnail="true"/>
+            </li>
+            <li>
+                Receive Credentials
+                <img alt="email-receive.png" src="email-receive.png" thumbnail="true"/>
+            </li>
+            <li>
+                Transmit Credentials
+                <img alt="email-send.png" src="email-send.png" thumbnail="true"/>
             </li>
         </list>
-        <img alt="email-generic.png" src="email-generic.png" thumbnail="true"/>
-        <img alt="email-receive.png" src="email-receive.png" thumbnail="true"/>
-        <img alt="email-send.png" src="email-send.png" thumbnail="true"/>
-        <img alt="email-test.png" src="email-test.png"/>
+
+        <note>
+            You can test your e-mail configuration by clicking on the test button.
+            <img alt="email-test.png" src="email-test.png"/>
+        </note>
     </chapter>
 
     <tip title="Did you already know?">
