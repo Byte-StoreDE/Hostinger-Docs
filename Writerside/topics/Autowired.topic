@@ -23,4 +23,12 @@
 
         <code-block src="../code/static-autowired.java" lang="java"/>
     </compare>
+
+    <p>
+        For example, if you create the module "ProxMox" with the component <code>ProxMoxPool</code>, you can use
+        Autowire within your module to access <code>ProxMoxPool</code>.
+        <br/><br/>
+        However, if you want to access beans such as <code>ModuleService</code> from the core of Hostinger, you need to
+        use the <code>AutowireLoader</code>.
+    </p>
 </topic>
