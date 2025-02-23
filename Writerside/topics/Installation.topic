@@ -113,7 +113,17 @@
     <chapter id="setup" title="Setup">
         After the first startup, you can access Hostinger via <a href="http://localhost/installer"/>.
 
-        <img src="welcome.png" alt="welcome.png"/>
+        <list type="decimal">
+            <li>
+                To install Hostinger you must first accept our License Terms, Terms of Service and Privacy Policy.
+                <img src="welcome.png" alt="welcome.png"/>
+            </li>
+            <li>In the next Step you are asked for the default System Localisation.</li>
+            <li>After that, you can Setup your Primary Database of Hostinger.
+                <img src="database.png" alt="database.png"/></li>
+        </list>
+
+
     </chapter>
 
 
