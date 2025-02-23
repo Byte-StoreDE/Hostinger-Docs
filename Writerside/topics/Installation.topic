@@ -120,7 +120,16 @@
             </li>
             <li>In the next Step you are asked for the default System Localisation.</li>
             <li>After that, you can Setup your Primary Database of Hostinger.
-                <img src="database.png" alt="database.png"/></li>
+                <img src="database.png" alt="database.png"/>
+            </li>
+            <li>
+                You can now create an Super Admin User for your Interface, please use secure credentials.
+                <img src="admin.png" alt="admin.png"/>
+            </li>
+            <li>
+                As last step, you need to import your Hostinger License, you can auto import it via your Space Account.
+                <img src="space.png" alt="space.png"/>
+            </li>
         </list>
 
 
