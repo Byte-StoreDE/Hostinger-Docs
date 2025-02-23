@@ -111,7 +111,9 @@
     <!--    </chapter>-->
 
     <chapter id="setup" title="Setup">
-        After the first startup you can access Hostinger via <a href="http://localhost"/>.
+        After the first startup, you can access Hostinger via <a href="http://localhost/installer"/>.
+
+        <img src="welcome.png" alt="welcome.png"/>
     </chapter>
 
 
