@@ -1,0 +1,1 @@
+webhookService.registerEventType(VirtualizationService.class, "create");

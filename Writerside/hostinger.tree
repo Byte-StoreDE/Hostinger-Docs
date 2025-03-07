@@ -32,6 +32,7 @@
             <toc-element topic="Config-module.topic"/>
         </toc-element>
         <toc-element topic="Autowired.topic"/>
+        <toc-element topic="Webhooks.topic"/>
         <toc-element topic="Publish-module.topic"/>
         <toc-element topic="Official-Modules.md">
             <toc-element topic="PayPal.topic"/>

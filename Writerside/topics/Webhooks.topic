@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Webhooks" id="Webhooks">
+
+    <chapter id="define" title="Define Webhook">
+        Hostinger enables you to trigger Webhooks. To provide a Webhook, you first need to register it within the
+        Runtime,
+        which can be achieved using the internal Webhook Service.
+
+        <code-block src="../code/sdk/register-webhook.java" lang="java"/>
+    </chapter>
+
+    <chapter id="endpoint" title="Define Endpoint">
+        Once the registration is complete, you must specify an Endpoint where the Webhook Event will be sent; otherwise, no actions will occur.
+
+        <img alt="webhook-endpoint.png" src="webhook-endpoint.png"/>
+    </chapter>
+
+    <chapter id="trigger" title="Trigger Webhooks">
+        To trigger you Webhook, you can use the following method:
+        <code-block src="../code/sdk/trigger-webhook.java" lang="Java"/>
+
+        The Webhook will be automatically triggered in Background as a Thread.
+
+        If you prefere the blocking method please use <code>webhookExecution</code>.
+    </chapter>
+
+</topic>
