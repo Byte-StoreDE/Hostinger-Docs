@@ -6,7 +6,7 @@
        title="Webhooks" id="Webhooks">
 
     <chapter id="define" title="Define Webhook">
-        Hostinger enables you to trigger Webhooks. To provide a Webhook, you first need to register it within the
+        To provide a Webhook, you first need to register it within the
         Runtime,
         which can be achieved using the internal Webhook Service.
 
@@ -14,9 +14,14 @@
     </chapter>
 
     <chapter id="endpoint" title="Define Endpoint">
-        Once the registration is complete, you must specify an Endpoint where the Webhook Event will be sent; otherwise, no actions will occur.
+        Once the registration is complete, you must specify an Endpoint where the Webhook Event will be sent; otherwise,
+        no actions will occur.
 
         <img alt="webhook-endpoint.png" src="webhook-endpoint.png"/>
+
+        <note>
+            At present, only the <code>POST</code>, <code>GET</code>, and <code>PUSH</code> methods are supported.
+        </note>
     </chapter>
 
     <chapter id="trigger" title="Trigger Webhooks">
