@@ -33,6 +33,12 @@
         </toc-element>
         <toc-element topic="Autowired.topic"/>
         <toc-element topic="Webhooks.topic"/>
+        <toc-element topic="Audit.topic">
+            <toc-element topic="Entity-Log.topic"/>
+            <toc-element topic="Security-Log.topic"/>
+            <toc-element topic="Guardian-Log.topic"/>
+            <toc-element topic="Audit-Log.topic"/>
+        </toc-element>
         <toc-element topic="Publish-module.topic"/>
         <toc-element topic="Official-Modules.md">
             <toc-element topic="PayPal.topic"/>
