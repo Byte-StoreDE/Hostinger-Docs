@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="FTP" id="FTP">
+
+    <p> Since 2.1.50 you can set up Secure FTP Service.</p>
+
+    <chapter id="secure" title="Secure FTP">
+        For using secure FTP, you need to create a <code>keystore</code> and <code>truststore</code>.
+        Those files should be uploaded to the <code>root</code> of Hostinger under the folder <code>certs</code>.
+        <br/>
+        <b>If you don't have this folder please enable Secure FTP in Application Settings and reboot Hostinger or create
+            in manually.</b>
+    </chapter>
+</topic>

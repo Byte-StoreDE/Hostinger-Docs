@@ -6,6 +6,7 @@
                   name="hostinger"
                   start-page="Hostinger.topic">
 
+    <toc-element topic="FTP.topic"/>
     <toc-element topic="Hostinger.topic"/>
     <toc-element topic="Installation.topic"/>
     <toc-element topic="Hosting.topic"/>
