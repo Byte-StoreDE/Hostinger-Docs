@@ -5,13 +5,19 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="FTP" id="FTP">
 
-    <p> Since 2.1.50 you can set up Secure FTP Service.</p>
+    <p> Since 2.1.50 you can set up FTPS Service.</p>
 
-    <chapter id="secure" title="Secure FTP">
+    <chapter id="ftps" title="FTPS">
         For using secure FTP, you need to create a <code>keystore</code> and <code>truststore</code>.
         Those files should be uploaded to the <code>root</code> of Hostinger under the folder <code>certs</code>.
         <br/>
-        <b>If you don't have this folder please enable Secure FTP in Application Settings and reboot Hostinger or create
+        <b>If you don't have this folder please enable FTP in Application Settings and reboot Hostinger or create
             in manually.</b>
     </chapter>
+
+    <chapter id="sftp" title="SFTP">
+        We are currently working on this feature ;)
+    </chapter>
+
+
 </topic>
