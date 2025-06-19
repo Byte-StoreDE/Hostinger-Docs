@@ -5,7 +5,9 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="FTP" id="FTP">
 
-    <p> Since 2.1.50 you can set up FTPS Service.</p>
+    <note>
+        <p> Since 2.1.50 you can set up FTPS Service.</p>
+    </note>
 
     <chapter id="ftps" title="FTPS">
         For using secure FTP, you need to create a <code>keystore</code> and <code>truststore</code>.

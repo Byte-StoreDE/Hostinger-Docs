@@ -14,6 +14,10 @@
         <toc-element topic="E-Mail-Templates.topic"/>
         <toc-element topic="E-Mail-Accounts.topic"/>
     </toc-element>
+    <toc-element topic="E-Commerce.topic">
+        <toc-element topic="Product.topic"/>
+        <toc-element topic="Invoice.topic"/>
+    </toc-element>
     <toc-element topic="Module.md">
         <toc-element topic="Introduction.md">
         </toc-element>
@@ -69,5 +73,8 @@
             <toc-element topic="Product-api.topic"/>
             <toc-element topic="Payment-api.topic"/>
         </toc-element>
+    </toc-element>
+    <toc-element topic="Core.topic">
+        <toc-element topic="Message-Templates.topic"/>
     </toc-element>
 </instance-profile>

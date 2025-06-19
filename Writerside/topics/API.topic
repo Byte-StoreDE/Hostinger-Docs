@@ -34,8 +34,11 @@
 
     <chapter title="Local OpenAPI Specifications" id="openapi-generator">
         <chapter title="Internal OpenAPI GUI" id="internal-openapi-gui">
-            Since 1.1.50 you can view the OpenAPI Specifications of Hostinger or Modules in the UI without to download
-            the Specs File.
+            <note>
+                Since 1.1.50 you can view the OpenAPI Specifications of Hostinger or Modules in the UI without to
+                download
+                the Specs File.
+            </note>
 
             <img alt="api-docs.png" src="api-docs.png"/>
         </chapter>
@@ -70,7 +73,6 @@
 
             <a href="https://editor.swagger.io/">Open SwaggerUi Editor</a>
         </chapter>
-
 
 
     </chapter>

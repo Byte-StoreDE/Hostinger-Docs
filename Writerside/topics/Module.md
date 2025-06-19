@@ -23,7 +23,9 @@ The Modules folder is located in the **root directory** of Hostinger under ``mod
 
 #### Upload Plugin
 
+<note>
 Since 1.1.65 you can directly upload plugins via the Web UI.
+</note>
 
 ### Can I develop my own modules?
 
