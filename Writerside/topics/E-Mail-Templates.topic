@@ -14,36 +14,41 @@
         be set up. This account is then assigned to the desired template.
     </tip>
 
-    <chapter title="Template Sender Setup" id="template-sender-setup">
-    </chapter>
-
-    <note title="What are Template Senders?">
-        <p>For each E-Mail Template, you can select a default E-Mail Account to send the template.
-        </p>
+    <warning>
         <p>
-            For example, you can
-            send registration emails using <code>noreply@domain.tld</code> and ticket notifications using <code>support@domain.tld</code>.
+            E-Mail Template senders are deprecated and will be removed in a future release.
         </p>
-    </note>
-
-    <list type="decimal">
-        <li>
-            Select the desired Mail Account for sending the template.
-            <img alt="email-template-account.png" src="email-template-account.png"/>
-        </li>
-        <li>
-            Test the template.
-            <img alt="email-template-test.png" src="email-template-test.png"/>
-        </li>
-        <li>
-            Enter the receiver for test mail.
-            <img alt="email-template-dummy.png" src="email-template-dummy.png"/>
-        </li>
-        <li>
-            Wait for the result and save the template configuration.
-            <img alt="email-template-success.png" src="email-template-success.png"/>
-        </li>
-    </list>
+        Please switch to <a href="Message-Templates.topic">Message Templates</a>.
+    </warning>
+    <chapter title="Template Sender Setup" id="template-sender-setup">
 
 
+        <note title="What are Template Senders?">
+            <p>For each E-Mail Template, you can select a default E-Mail Account to send the template.
+            </p>
+            <p>
+                For example, you can
+                send registration emails using <code>noreply@domain.tld</code> and ticket notifications using <code>support@domain.tld</code>.
+            </p>
+        </note>
+
+        <list type="decimal">
+            <li>
+                Select the desired Mail Account for sending the template.
+                <img alt="email-template-account.png" src="email-template-account.png"/>
+            </li>
+            <li>
+                Test the template.
+                <img alt="email-template-test.png" src="email-template-test.png"/>
+            </li>
+            <li>
+                Enter the receiver for test mail.
+                <img alt="email-template-dummy.png" src="email-template-dummy.png"/>
+            </li>
+            <li>
+                Wait for the result and save the template configuration.
+                <img alt="email-template-success.png" src="email-template-success.png"/>
+            </li>
+        </list>
+    </chapter>
 </topic>

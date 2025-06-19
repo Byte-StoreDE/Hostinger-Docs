@@ -10,4 +10,50 @@
         and <a href="Invoice.topic">Invoices</a>.
     </note>
 
+    <chapter title="Text vs HTML Templates" id="text-vs-html-templates">
+        A message template can be created as HTML or plain text variant. The HTML version is suitable for invoices and
+        e-mail templates, for example.
+        Text versions should be used for outdated e-mail clients or, for example, templates for push notifications or
+        announcements.
+    </chapter>
+
+    <chapter title="Creating a Text Template" id="creating-a-text-template">
+        <chapter title="Parameters" id="parameters">
+            Since Hostinger uses the <a href="https://freemarker.apache.org/">Apache FreeMarker Template Engine</a>,
+            variables can be dynamically integrated into the template, and even entire database objects can be processed
+            using the JMIX Entity API.
+
+            <chapter title="Example Template" id="parameter-example">
+                <p>
+                    As an example, we create a message template that greets the customer by first and last name in the first line.
+                </p>
+                <p>
+                    We can use the following FTL markup for this:
+                </p>
+                <code-block validate="true" lang="freemarker" id="freemarker-example">Hello ${customer.firstName} ${customer.lastName}!</code-block>
+            </chapter>
+
+            However, we still need to define a parameter so that FreeMarker knows which object should be bound to the template parameter <code>${customer}</code>.
+
+            <img alt="message-template-parameter.png"
+                 src="../images/core/message-templates/message-template-parameter.png"/>
+
+            We can also add a translation for the name of the parameter.
+            <img alt="message-template-localisation.png"
+                 src="../images/core/message-templates/message-template-localisation.png"/>
+
+            If the template is now rendered, it contains the following message:
+
+            <code-block validate="true" lang="plain text" id="hello-max-musterman">Hello Max Musterman!</code-block>
+        </chapter>
+    </chapter>
+
+    <chapter title="Creating a HTML Template" id="creating-a-html-template">
+        <p>
+            As already shown in the text example, FreeMarker formattings can also be used with HTML.
+        </p>
+        <p>
+            This is done in the same way as in the text variant, examples follow soon.
+        </p>
+    </chapter>
 </topic>
