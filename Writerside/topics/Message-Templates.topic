@@ -27,6 +27,9 @@
                 <p>
                     As an example, we create a message template that greets the customer by first and last name in the first line.
                 </p>
+
+                <img alt="message-template-example.png" src="../images/core/message-templates/message-template-example.png"/>
+
                 <p>
                     We can use the following FTL markup for this:
                 </p>
@@ -54,6 +57,14 @@
         </p>
         <p>
             This is done in the same way as in the text variant, examples follow soon.
+        </p>
+    </chapter>
+
+    <chapter title="FreeMarker Functions" id="freemarker-functions">
+        <p>
+            FreeMarker provides a lot of functions that can be used to create dynamic content, please refer to the official docs.
+            <br/><br/>
+            <a href="https://freemarker.apache.org/docs/index.html">FreeMarker Manual</a>
         </p>
     </chapter>
 </topic>
