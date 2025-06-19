@@ -5,13 +5,14 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Message Templates" id="Message-Templates">
 
+
     <note>
         Since 2.5.0 you can use <code>Message Templates</code> to create Templates for <a href="E-Mail-Templates.topic">E-Mails</a>
         and <a href="Invoice.topic">Invoices</a>.
     </note>
 
     <chapter title="Text vs HTML Templates" id="text-vs-html-templates">
-        A message template can be created as HTML or plain text variant. The HTML version is suitable for invoices and
+        A message template can be created as an HTML or plain text variant. The HTML version is suitable for invoices and
         e-mail templates, for example.
         Text versions should be used for outdated e-mail clients or, for example, templates for push notifications or
         announcements.
@@ -33,7 +34,7 @@
                 <p>
                     We can use the following FTL markup for this:
                 </p>
-                <code-block validate="true" lang="freemarker" id="freemarker-example">Hello ${customer.firstName} ${customer.lastName}!</code-block>
+                <code-block validate="true" lang="FTL" id="freemarker-example">Hello ${customer.firstName} ${customer.lastName}!</code-block>
             </chapter>
 
             However, we still need to define a parameter so that FreeMarker knows which object should be bound to the template parameter <code>${customer}</code>.

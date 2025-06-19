@@ -6,7 +6,6 @@
                   name="hostinger"
                   start-page="Hostinger.topic">
 
-    <toc-element topic="FTP.topic"/>
     <toc-element topic="Hostinger.topic"/>
     <toc-element topic="Installation.topic"/>
     <toc-element topic="Hosting.topic"/>
@@ -19,8 +18,7 @@
         <toc-element topic="Invoice.topic"/>
     </toc-element>
     <toc-element topic="Module.md">
-        <toc-element topic="Introduction.md">
-        </toc-element>
+        <toc-element topic="Introduction.md"/>
         <toc-element topic="Extensions.topic">
             <toc-element topic="Virtualized-Module.topic"/>
             <toc-element topic="Machine-module.topic"/>
@@ -51,6 +49,10 @@
             <toc-element topic="ProxMox.topic"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="Core.topic">
+        <toc-element topic="FTP.topic"/>
+        <toc-element topic="Message-Templates.topic"/>
+    </toc-element>
     <toc-element topic="API.topic">
         <toc-element topic="Hosting-api.topic">
             <toc-element topic="Machine-api.topic"/>
@@ -73,8 +75,5 @@
             <toc-element topic="Product-api.topic"/>
             <toc-element topic="Payment-api.topic"/>
         </toc-element>
-    </toc-element>
-    <toc-element topic="Core.topic">
-        <toc-element topic="Message-Templates.topic"/>
     </toc-element>
 </instance-profile>
