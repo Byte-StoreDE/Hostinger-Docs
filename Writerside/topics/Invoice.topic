@@ -5,5 +5,20 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Invoice" id="Invoice">
 
-    <p>Start typing here...</p>
+    <chapter title="Message Template" id="message-template-setup">
+        <note>
+            Since 2.5.0 you can use <a href="Message-Templates.topic"/> to create Invoices.
+        </note>
+        <p>
+            Currently, you have the options to send an invoice as attachments or as an email directly to the customer.
+        </p>
+        <p>
+            You can select an E-Mail Template and an E-Mail Attachment Template in the Invoice Settings.</p>
+        <p>
+            To send the E-Mail Attachment Template, select <b>Send invoice as a mail attachment</b> in the Invoice
+            Settings.
+        </p>
+        <img alt="invoice-settings.png" src="../images/ecommerce/invoice/invoice-settings.png"/>
+    </chapter>
+
 </topic>
