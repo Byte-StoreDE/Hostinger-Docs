@@ -49,7 +49,7 @@
             <toc-element topic="ProxMox.topic"/>
         </toc-element>
     </toc-element>
-    <toc-element topic="Core.topic">
+    <toc-element topic="System.topic">
         <toc-element topic="FTP.topic"/>
         <toc-element topic="Message-Templates.topic"/>
     </toc-element>
