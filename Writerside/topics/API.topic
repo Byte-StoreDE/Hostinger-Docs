@@ -8,7 +8,7 @@
     Hostinger uses the <a href="https://docs.jmix.io/jmix/rest/index.html">JMIX REST API Addon</a> to provide a clean
     API Backend.
     <br/><br/>
-    You can find the Java Docs for Hostinger <resource src="index.html"> here</resource>.
+    You can find the Full Javadocs for Hostinger <a href="https://byte-storede.github.io/Hostinger-Javadocs/"> here</a>.
 
     <chapter title="Authentication" id="authentication">
         <note>
