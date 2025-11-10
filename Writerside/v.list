@@ -2,8 +2,8 @@
 <!DOCTYPE vars SYSTEM "https://resources.jetbrains.com/writerside/1.0/vars.dtd">
 <vars>
     <var name="product" value="Hostinger"/>
-    <var name="version" value="2.6.1"/>
-    <var name="jmix-version" value="2.6.1"/>
+    <var name="version" value="2.7.0"/>
+    <var name="jmix-version" value="2.7.0"/>
     <var name="jre-min" value="17"/>
     <var name="jre-max" value="21"/>
     <var name="space_url" value="https://space.byte-store.de"/>
