@@ -5,5 +5,11 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Product" id="Product">
 
-    <p>Start typing here...</p>
+    <code-block lang="Mermaid">
+    </code-block>
+
+    <warning>
+        Since Version 2.7.4, the Product Type Subscription is no longer available.
+        With this change you can create a Subscription Entry for a Physical or Digital Product.
+    </warning>
 </topic>
