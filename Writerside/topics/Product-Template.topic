@@ -5,6 +5,11 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Product Template" id="Product-Template">
 
+    <note>
+        Since 2.7.4 you can use <code>Product Templates</code> to define <code>Dynamically Options</code> for the <code>Product
+        Checkout</code> in the <code>Shop</code>.
+    </note>
+
     <chapter title="What are Product Templates?" id="what-are-product-templates">
         Product templates are used to define Dynamically Options for the Product Checkout in the Shop.
 
