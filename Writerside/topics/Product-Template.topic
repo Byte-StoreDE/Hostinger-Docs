@@ -51,4 +51,15 @@
         </note>
     </chapter>
 
+    <chapter title="Does a Template affects the Product Price?" id="does-a-template-affects-the-product-price">
+        Yes, the Template Price is added to the Product Price.
+
+        <code>(Unit Price * Value) + Base Product Price </code>
+
+        <warning>
+            Currently, the Template Price is only linear to the Unit Amount and Unit Price.<br/>
+            If you have a String as Template, the Price will be the fixed Unit Price.
+        </warning>
+    </chapter>
+
 </topic>
