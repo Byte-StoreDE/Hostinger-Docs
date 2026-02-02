@@ -8,6 +8,8 @@
     <chapter title="What are Product Templates?" id="what-are-product-templates">
         Product templates are used to define Dynamically Options for the Product Checkout in the Shop.
 
+        <img alt="create-product-template.png" src="create-product-template.png"/>
+
         For Example, the Product is a V-Server, you can define the following Options:
 
         <list>
@@ -26,6 +28,22 @@
             <li>Branding</li>
             <li>etc.</li>
         </list>
+    </chapter>
+
+    <chapter title="How to use Product Templates?" id="how-to-use-product-templates">
+        To assign a Product Template to a Product, go to the Product Settings and then to Customization.
+
+        <img alt="image.png" src="image.png"/>
+
+        You can then add or assign a Product Template to the Product.
+
+        <img alt="assign-template.png" src="assign-template.png"/>
+
+        <note>
+            You can generate a Product Template based on a Factory-based Template (Virtual Server, Prozessor, etc.).
+
+            <img alt="generate-template.png" src="generate-template.png"/>
+        </note>
     </chapter>
 
 </topic>
