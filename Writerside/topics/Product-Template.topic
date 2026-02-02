@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Product Template" id="Product-Template">
+
+    <chapter title="What are Product Templates?" id="what-are-product-templates">
+        Product templates are used to define Dynamically Options for the Product Checkout in the Shop.
+
+        For Example, the Product is a V-Server, you can define the following Options:
+
+        <list>
+            <li>CPU Cores</li>
+            <li>Memory</li>
+            <li>Disk Space</li>
+            <li>IP Addresses</li>
+            <li>etc.</li>
+        </list>
+
+        For a physical Product, it can be the following:
+
+        <list>
+            <li>Color</li>
+            <li>Size</li>
+            <li>Branding</li>
+            <li>etc.</li>
+        </list>
+    </chapter>
+
+</topic>

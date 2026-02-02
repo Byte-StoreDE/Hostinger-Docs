@@ -14,7 +14,9 @@
         <toc-element topic="E-Mail-Accounts.topic"/>
     </toc-element>
     <toc-element topic="E-Commerce.topic">
-        <toc-element topic="Product.topic"/>
+        <toc-element topic="Product.topic">
+            <toc-element topic="Product-Template.topic"/>
+        </toc-element>
         <toc-element topic="Invoice.topic"/>
     </toc-element>
     <toc-element topic="Module.md">
